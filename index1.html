@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <title>Spectevo Technologies | Laboratory Solutions | Turnkey Projects</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <!-- Tailwind -->
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <script>
+    function counterAdd() {
+        var str = document.getElementById("counter").innerHTML;
+        var res = str.replace(str.toString(), (Number(str) + 1).toString());
+        document.getElementById("counter").innerHTML = res;
+    }
+
+    function counterSub() {
+        var str = document.getElementById("counter").innerHTML;
+        if (Number(str) - 1 == 0) {
+            var res = str.replace(str.toString(), "");
+        } else {
+            var res = str.replace(str.toString(), (Number(str) - 1).toString());
+        }
+        document.getElementById("counter").innerHTML = res;
+    }
+
+    function counterClear() {
+        var str = document.getElementById("counter").innerHTML;
+        var res = str.replace(str.toString(), "");
+        document.getElementById("counter").innerHTML = res;
+    }
+  </script>
+
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo">
+            <div id="content-desktop">
+                <div id="rotator"><img src="./assets/img/favicon.ico" /><span style="color: black; font-style: normal; font-size: 18px;"> Spectevo Technologies</span></div>
+            </div>
+            <div id="content-mobile">
+                <span style="color: black; font-style: normal; font-size: 18px;"> Spectevo Technologies</span>
+            </div>
+        </a>
+
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a class="nav-link scrollto" href="#header">Home</a></li>
+                <li><a class="nav-link scrollto" href="#about">About</a></li>
+                <li><a class="nav-link scrollto" href="#featured-services">Services</a></li>
+                <li><a class="nav-link scrollto" href="#products">Products</a></li>
+                <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                <li>
+                    <span>
+                    <i class="fa fa-bitbucket bitbucket-color" aria-hidden="true" > <span id="counter" style="color: gray; font-size: large;"></span></i>
+                    </span>
+                </li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+
+    </div>
+</header>
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div id="content-desktop">
+                <img src="./assets/img/sliders/slider1.jpg" class="d-block w-100" style="height: 578px;" alt="...">
+            </div>
+            <div id="content-mobile">
+                <img src="./assets/img/sliders/slider1.jpg" class="d-block w-100" style="height: 300px;" alt="...">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div id="content-desktop">
+                <img src="./assets/img/sliders/slider2.jpg" class="d-block w-100" style="height: 578px;" alt="...">
+            </div>
+            <div id="content-mobile">
+                <img src="./assets/img/sliders/slider2.jpg" class="d-block w-100" style="height: 300px;" alt="...">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div id="content-desktop">
+                <img src="./assets/img/sliders/slider1.jpg" class="d-block w-100" style="height: 578px;" alt="...">
+            </div>
+            <div id="content-mobile">
+                <img src="./assets/img/sliders/slider1.jpg" class="d-block w-100" style="height: 300px;" alt="...">
+            </div>
+        </div>
+      </div>
+  </div>
+<!-- End Hero -->
+  <main id="main">
+
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <h3>Find Out More About <span>Spectevo</span></h3>
+          <p>Spectevo Technologies, an ISO 9001: 2015 company, evolved from laboratory consumables & equipment trading
+            to leading Laboratory/Pilot Plant Infrastructure Turnkey Solutions Provider cum system integrator in India.
+            Currently, We have operations from Hyderabad, Delhi NCR, Bhubaneswar & Lucknow. It was established primarily
+            to meet the complete requirements of Cleanroom, Pilot plant, Lab Set-ups under one roof which is serviced by
+            integrating high-quality and innovative products & equipment manufactured at different locations and
+            imports.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+            <img src="assets/img/12.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
+            data-aos-delay="100">
+            <h3>USER DEFINED EXPERIENCE.</h3>
+            <p class="fst-italic">
+              No Non-Sense, We customize according to user's needs!
+            </p>
+            <ul>
+              <li>
+                <i class="bx bx-store-alt"></i>
+                <div>
+                  <h5>Spectevo is registered as category “A” organization under the MSME Act of the Govt of India and
+                    registered under Start-up India, under the Department for Promotion of Industry and Internal Trade,
+                    Govt of India.</h5>
+                  <p> We offer design-build for, Institute, Universities, R&D and Health Care sectors. We engage in
+                    flexible aggregating service to suit the custom needs of various customers. We are a single point of
+                    contact from concept, design, execution, testing and commissioning and ensure the completion of all
+                    documentation to comply with local authorities.</p>
+                </div>
+              </li>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+    <!-- ======= Featured Services Section ======= -->
+    <section id="featured-services" class="featured-services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-md-8 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon">
+                <center>
+                  <i class="fa fa-gears" style="font-size: xx-large" aria-hidden="true"></i>
+                </center>
+              </div>
+              <h4 class="title"><a href="">PRODUCTS AND SERVICES</a></h4>
+              <p class="description">Design, Develop and Integrate Products, Equipment and Machinery required for
+                Installation of Cleanroom, Pilot Plants & Research Laboratories as per Regulatory Guidelines.</p>
+            </div>
+          </div>
+
+          <div class="col-md-8 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon">
+                <center>
+                  <i class="fa fa-flask" style="font-size: xx-large" aria-hidden="true"></i>
+                </center>
+              </div>
+              <h4 class="title"><a href="">LABORATORY EQUIPMENTS</a></h4>
+              <p class="description">Specialized in laboratory equipment spectevo's product range includes general
+                laboratory equipment and instruments sourced from the best manufacturers in the business across the
+                globe.</p>
+            </div>
+          </div>
+
+          <div class="col-md-8 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon">
+                <center>
+                  <i class="fa fa-lightbulb-o" style="font-size: xx-large" aria-hidden="true"></i>
+                </center>
+              </div>
+              <h4 class="title"><a href="">BRILLIANT SERVICES</a></h4>
+              <p class="description">By a group of highly experienced, multidisciplinary professionals & companies
+                providing turnkey solutions to life science, healthcare, research institutes and other industrial
+                projects through exceptional project planning and
+                execution methodology.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- End Featured Services Section -->
+    <!-- ======= Skills Section ======= -->
+    <div id="text-core" class="text-core">Our Core Strengths:</div>
+    <section id="skills" class="skills">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">Competetive Team <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Ability to understand customer requirement <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">Timely delivery <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Detailed engineering <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="171" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="2899" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Products Sold</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="500" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Hours Of Support</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Team Members</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+    <!-- ======= Gallery Section ======= -->
+    <section id="Gallery" class="gallery">
+      <figure class="gallery__item gallery__item--1"><img src="assets/img/gal-1.jpeg" alt="Gallery image 1"
+          class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--2"><img src="assets/img/gal-2.jpeg" alt="Gallery image 2"
+          class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--3"><img src="assets/img/gal-3.jpeg" alt="Gallery image 3"
+          class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--4"><img src="assets/img/gal-4.jpeg" alt="Gallery image 4"
+          class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--5"><img src="assets/img/gal-5.jpeg" alt="Gallery image 5"
+          class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--6"><img src="assets/img/gal-6.jpeg" alt="Gallery image 6"
+          class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--7"><img src="assets/img/gal-7.jpeg" alt="Gallery image 7"
+          class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--8"><img src="assets/img/gal-8.jpeg" alt="Gallery image 8"
+          class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--9"><img src="assets/img/gal-9.jpeg" alt="Gallery image 9"
+          class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--10"><img src="assets/img/gal-10.jpeg" alt="Gallery image 10"
+          class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--11"><img src="assets/img/gal-11.jpeg" alt="Gallery image 11"
+          class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--12"><img src="assets/img/gal-12.jpeg" alt="Gallery image 12"
+          class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--13"><img src="assets/img/gal-13.jpeg" alt="Gallery image 13"
+          class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--14"><img src="assets/img/gal-14.jpeg" alt="Gallery image 14"
+          class="gallery__img"></figure>
+
+
+    </section>
+    <!-- End Gallery Section -->
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <h3><span>Contact Us</span></h3>
+          <p>Mondays-Fridays: 10AM to 7PM</p>
+          <p>Saturdays & Sundays: Closed</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-6">
+            <div class="info-box mb-4">
+              <i class="bx bx-map"></i>
+              <h3>Our Address</h3>
+              <p><span>Head Office:</span>
+                2nd Floor, 13 RDC, Advocate Chamber,
+                Raj Nagar District Centre,
+                Ghaziabad - 201002
+                <span>Our Factory:</span>
+                G/1, Naidu’s Amruday Anand Nagar,
+                Mirzalguda, Hyderabad - 500047
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-phone-call"></i>
+              <h3>Call Us</h3>
+              <p>+91 9821258751</p>
+              <p>+91 8527209426</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-envelope"></i>
+              <h3>Email Us</h3>
+              <p>info@spectevo.com</p>
+            </div>
+          </div>
+
+
+
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-6 ">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.4941535126864!2d77.44085971503728!3d28.674861182401077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf1bc407260d1%3A0x8e317b5498d59c38!2sSpectevo%20Technologies!5e0!3m2!1sen!2sin!4v1617201470647!5m2!1sen!2sin"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Spectevo<span>.</span></h3>
+            <p>
+              <span>Head Office: 2nd Floor, 13 RDC, Advocate Chamber,
+                Raj Nagar District Centre, Ghaziabad - 201002</span>
+              <span>Our Factory: G/1, Naidu’s Amruday Anand Nagar,
+                Mirzalguda, Hyderabad - 500047</span><br><br>
+              <strong>Phone:</strong> +91 9821258751 , +91 8527209426<br>
+              <strong>Email:</strong> info@spectevo.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Products</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Gallery</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Service 1</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Service 2</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Service 3</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Service 4</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Service 5</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <p>Connect with us on:</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="container py-4">
+            <div class="copyright">
+              &copy; Copyright <strong><span>Spectevo</span></strong>. All Rights Reserved
+            </div>
+          </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
